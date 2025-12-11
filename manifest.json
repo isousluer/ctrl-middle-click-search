@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Ctrl+Middle Click Search",
+  "version": "1.0.0",
+  "description": "Search selected text on Google with Ctrl + middle mouse button click",
+  "author": "İsmail Usluer",
+  "homepage_url": "https://github.com/isousluer/ctrl-middle-click-search",
+  
+  "permissions": [
+    "tabs"
+  ],
+  
+  "background": {
+    "scripts": ["background.js"]
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  
+  "icons": {
+    "48": "icon48.png",
+    "96": "icon96.png"
+  }
+}

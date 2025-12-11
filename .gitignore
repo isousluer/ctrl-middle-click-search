@@ -1,0 +1,24 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build/Package Files
+*.zip
+*.xpi
+web-ext-artifacts/
+
+# Node modules (if you add build tools later)
+node_modules/
+package-lock.json
+
+# Temporary Files
+*.log
+*.tmp
