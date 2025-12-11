@@ -73,7 +73,7 @@ This extension requires the following permissions:
 ### Testing Locally
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/ctrl-middle-click-search.git
+git clone https://github.com/isousluer/ctrl-middle-click-search.git
 cd ctrl-middle-click-search
 ```
 
